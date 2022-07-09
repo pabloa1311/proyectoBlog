@@ -41,3 +41,34 @@ header {
     justify-self: end;
     margin-right: 50px;
 }
+
+header .header-icons span {
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+.nav-logo-container {
+    margin-left: 50px;
+}
+
+.nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}

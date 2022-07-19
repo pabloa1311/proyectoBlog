@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif; */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +11,7 @@
 }
 
 body {
+    font-family: 'Roboto Mono', monospace;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -71,4 +78,45 @@ nav {
 .profile-link a {
     color: black;
     border-bottom: 1px solid black;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url("../assets/img/Cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home-main-text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+}
+
+.home-main-button {
+    width: 110px;
+    height: 50px;
+    background-color: #47cfac;
+    display: grid;
+    align-items: center;
+}
+
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
+
 }
